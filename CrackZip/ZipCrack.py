@@ -6,6 +6,7 @@ class ZipCrack:
         self._wordlist = wordlist
         self._arquivo  = arquivo
 
+    #Quebra a senha do arquivo zip
     def quebrar_zip(self):
         for line in self._wordlist:
                 try:
